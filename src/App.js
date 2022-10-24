@@ -3,12 +3,14 @@ import './App.css';
 import FormSimple from './components/FormSimple';
 import Collatz from './components/Collatz';
 import TablaMultiplicar from './components/TablaMultiplicar';
+import SeleccionMultipleForms from './components/SeleccionMultipleForms';
 function App() {
   return (
     <div className="App">
   {/* <FormSimple></FormSimple> */}
    {/* <Collatz/> */}
-   <TablaMultiplicar/>
+   {/* <TablaMultiplicar/> */}
+   <SeleccionMultipleForms/>
     </div>
   );
 }
